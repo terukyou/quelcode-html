@@ -45,6 +45,10 @@ small{
 	font-size: 12px;
 	color: #999999;
 }
+.sub-heading li a,
+.sub-heading li p{
+	padding-left: 10px;
+}
 h1{
 	font-size: 28px;
 }
@@ -100,8 +104,8 @@ article h2::before{
 	padding-right: 10px;
 }
 .sub-heading li::before{
-	margin-left: 2px;
-	margin-right: 6px;
+	position: absolute;
+	top: 60px;
 }
 .pdf-button a::after{
 	font-family: "Font Awesome 5 Free";
@@ -160,6 +164,7 @@ section>p a:hover{
 }
 .sub-heading li{
 	text-decoration: none;
+	padding-left: 10px;
 }
 .nav-list a:hover{
 	border-bottom: solid medium #0c419a;
